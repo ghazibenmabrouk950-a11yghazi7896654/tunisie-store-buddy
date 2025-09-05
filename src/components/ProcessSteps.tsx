@@ -39,11 +39,11 @@ const ProcessSteps = () => {
             return (
               <Card key={index} className="p-8 text-center hover:shadow-elegant transition-all duration-300 border-0 bg-white">
                 <div className="mb-6">
-                  <div className="w-20 h-20 bg-mystery rounded-full mx-auto flex items-center justify-center mb-4">
+                  <div className="w-20 h-20 bg-black rounded-full mx-auto flex items-center justify-center mb-4">
                     <Icon className="w-10 h-10 text-white" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-                  <h4 className="text-lg font-semibold text-mystery mb-4">{step.subtitle}</h4>
+                  <h4 className="text-lg font-semibold text-black mb-4">{step.subtitle}</h4>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
                   {step.description}

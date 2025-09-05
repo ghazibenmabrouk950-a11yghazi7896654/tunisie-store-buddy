@@ -41,7 +41,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <h1 className="text-2xl font-bold text-mystery">Mystery Box Admin</h1>
+              <h1 className="text-2xl font-bold text-black">Mystery Box Admin</h1>
             </div>
             <Button variant="outline" asChild>
               <Link to="/">Retour au site</Link>
@@ -65,7 +65,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
                       variant={isActive ? "default" : "ghost"}
                       className={`w-full justify-start ${
                         isActive 
-                          ? "bg-mystery text-white" 
+                          ? "bg-black text-white" 
                           : "hover:bg-muted"
                       }`}
                       asChild

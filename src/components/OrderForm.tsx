@@ -132,12 +132,12 @@ const OrderForm = () => {
             <div className="border-t pt-6">
               <div className="flex justify-between items-center mb-6">
                 <span className="text-lg font-semibold">Total:</span>
-                <span className="text-2xl font-bold text-mystery">99,000 TND</span>
+                <span className="text-2xl font-bold text-black">99,000 TND</span>
               </div>
               
               <Button 
                 type="submit" 
-                className="w-full h-14 text-lg bg-mystery hover:bg-mystery/90 text-white rounded-xl shadow-mystery"
+                className="w-full h-14 text-lg bg-black hover:bg-gray-800 text-white rounded-xl shadow-lg"
               >
                 ACHETER MAINTENANT
               </Button>
